@@ -1,0 +1,22 @@
+### REST client VSCODE Extension
+
+GET http://localhost:8080/
+
+###
+
+GET http://localhost:8080/alunos
+
+###
+
+GET http://localhost:8080/alunos/1
+
+###
+
+POST http://localhost:8080/alunos
+Content-Type: application/json
+
+{
+    "name": "Aluno 1",
+    "CPF": "00000000000",
+    "RG": "000000000"
+}
